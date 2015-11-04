@@ -1,13 +1,63 @@
 html { 
-    background: url(../images/soon.png) no-repeat center center fixed; 
+/*    background: url(../images/bg.png) no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
     min-height: 100%;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 1.6em !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px !important;
+    margin: 0 0 6px 0 !important;
+}
+
+h2 {
+    font-size: 0.8em !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
 }
 
 body{
     min-height:100%;
+    font-family: 'Lato', sans-serif !important;
+    letter-spacing: 0.6px;
+    font-weight: 300 !important;  
+    background: black;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.header {
+    text-align: center;
+}
+
+.container {
+    background: rgba(0,0,0,0.3);
+    border-radius: 2px;
+    
+    
+}
+
+.mock {
+    margin: 0 0 20px 0;
+}
+
+.mock img {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.text {
+    padding: 40px 40px 40px 40px;
+}
+
+
+.dl {
+    min-width: 250px;
+    margin: 40px 0 0 20px;
 }
