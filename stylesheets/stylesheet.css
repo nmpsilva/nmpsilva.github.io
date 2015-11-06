@@ -64,5 +64,11 @@ body{
 @media (min-width: 708px) {
  .dl {
     margin: 40px 0 0 40px;
- }    
+ }
+}
+
+@media (max-width: 708px) {
+    .text {
+        padding: 40px 10px 40px 10px;
+    }
 }
