@@ -39,8 +39,7 @@ body{
 .container {
     background: rgba(0,0,0,0.3);
     border-radius: 2px;
-    
-    
+    padding: 0 !important;    
 }
 
 .mock {
@@ -59,5 +58,11 @@ body{
 
 .dl {
     min-width: 250px;
-    margin: 40px 0 0 20px;
+    margin: 40px 0 0 0;
+}
+
+@media (min-width: 708px) {
+ .dl {
+    margin: 40px 0 0 40px;
+ }    
 }
